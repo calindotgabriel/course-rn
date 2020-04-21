@@ -18,23 +18,26 @@ const BoxesScreen = () => (
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    flexDirection: "row"
   },
   box1: {
-    // ...StyleSheet.absoluteFill,
-    // left: 200,
-    // top: 200,
+    flex: 1,
+    ...StyleSheet.absoluteFill,
+    left: 200,
+    top: 200,
     width: 100,
     height: 100,
     backgroundColor: "red",
     // zIndex: 2,
   },
   box2: {
-    // position: "relative",
+    position: "relative",
     // top: 200,
-    // left: 150,
+    left: 150,
     width: 100,
     height: 100,
     backgroundColor: "blue",
+    zIndex: 2,
   },
   box3: {
     // position: "relative",

@@ -24,13 +24,13 @@ const styles = StyleSheet.create({
     backgroundColor: "yellow",
   },
   box1: {
-    // flex: 1,
+    flex: 1,
     width: 100,
     height: 100,
     backgroundColor: "red",
   },
   box3: {
-    // flex: 1,
+    flex: 1,
     width: 100,
     height: 100,
     backgroundColor: "green",
@@ -43,13 +43,13 @@ const styles = StyleSheet.create({
 
 const boxes = StyleSheet.create({
   box2: {
-    // flex: 3,
+    flex: 2,
     width: 100,
     height: 100,
     backgroundColor: "blue",
   },
 });
 
-const wrapper = StyleSheet.compose(styles.container, boxes.box2);
+const wrapper = StyleSheet.compose(styles.container, boxes);
 
 export default FlexDemo;
